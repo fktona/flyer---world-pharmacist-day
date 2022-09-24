@@ -20,7 +20,7 @@ body{
      position: relative;
     display: grid;
     grid-template-columns: 0.7fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     font-weight: 900;
 
 }
@@ -39,9 +39,7 @@ img {
 
 .side{
     position: relative;
-    
 
-bottom: 0;
 }
 .side_attraction{
     background-color: #00c2f5;
@@ -123,7 +121,7 @@ ul li:nth-child(odd){
 }
 .gh{
     position: relative;
-    height: 100%;
+    height: 96.5%;
 
     
     
@@ -132,7 +130,7 @@ ul li:nth-child(odd){
     position: relative;
  background-color: #0bfba2;
  left: 0;
- height: 40%;
+ height: 58.8%;
  width: 110%;
  font-family:  Helvetica, sans-serif;
  clip-path: polygon(0 0, 100% 9% ,100%  100% , 0 100%);
@@ -149,9 +147,9 @@ ul li:nth-child(odd){
     position: absolute;
     background-color: black;
     left: 0;
-    top: 61%;
+    top: 44.3%;
     clip-path: polygon(0 0, 100% 9% , 100%  100% , 0 100%);
-    height: 40%;
+    height: 58.8%;
     width: 110%;
     font-family:  Helvetica, sans-serif;
     line-height: 4rem;
