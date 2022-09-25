@@ -5,10 +5,9 @@
 }
 
 body{
-    background-color: white;
-    color: white;
     height: 100vh;
     width: 100vw;
+    z-index: -66;
 
 }
 .container{
@@ -16,11 +15,10 @@ body{
 
     background-size: cover;
     color: black;
-    background-attachment: fixed;
      position: relative;
     display: grid;
     grid-template-columns: 0.7fr 1fr;
-    grid-template-rows: 1fr;
+    
     font-weight: 900;
 
 }
@@ -29,13 +27,7 @@ img {
     object-fit: cover;
     
 }
-.logo{
-    position: relative;
-    max-width: 100px;
-    width: 100%;
-    float: right;
-    background-color: azure;
-}
+
 
 .side{
     position: relative;
@@ -65,6 +57,7 @@ img {
 h3{
     font-size: 2rem;
     line-height: 4rem;
+    text-shadow: 1px 1px 3px rgba(255, 166, 0, 0.607);
 }
 
 .side_attraction_list{
@@ -94,7 +87,6 @@ h3{
     width: 90%;
 }
 ul{
-    list-style: circle;
     display: grid;
     gap: 0.5rem;
     list-style: none;
@@ -121,16 +113,16 @@ ul li:nth-child(odd){
 }
 .gh{
     position: relative;
-    height: 96.5%;
+    display: flex;
+    flex-direction: column;
 
-    
     
 }
 .name{
-    position: relative;
+    position: absolute;
  background-color: #0bfba2;
  left: 0;
- height: 58.8%;
+ height: 40.8%;
  width: 110%;
  font-family:  Helvetica, sans-serif;
  clip-path: polygon(0 0, 100% 9% ,100%  100% , 0 100%);
@@ -140,22 +132,10 @@ ul li:nth-child(odd){
  align-items: center;
  line-height: 4rem;
  font-size: 1.5rem;
+ bottom: 0;
  
 }
 
-.not{
-    position: absolute;
-    background-color: black;
-    left: 0;
-    top: 44.3%;
-    clip-path: polygon(0 0, 100% 9% , 100%  100% , 0 100%);
-    height: 58.8%;
-    width: 110%;
-    font-family:  Helvetica, sans-serif;
-    line-height: 4rem;
-    font-size: 1.5rem;
-     
-}
 
 small{
     
@@ -170,9 +150,12 @@ small{
 
 .ku {
     position: relative;
-    width: 160%;
-    margin-left: 0;
+display: grid;
+place-items: center;
+align-items: center;
     object-fit: cover;
+    height: 60%;
+    
 }
 .lower{
     display:  flex;
@@ -186,7 +169,37 @@ small{
     padding: 0.5rem;
 }
 
-.ku{
+
+
+
+.yy{
+    text-align: center;
+    position: relative;
     width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+
+}
+.yu{
+    position: absolute;
+    background-color: black;
+    left: 0;
+    height: 40.8%;
+    width: 110%;
+    font-family:  Helvetica, sans-serif;
+    clip-path: polygon(0 0, 100% 9% ,100%  100% , 0 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    bottom: 4px;
     
 }
