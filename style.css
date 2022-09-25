@@ -57,7 +57,7 @@ img {
 h3{
     font-size: 2rem;
     line-height: 4rem;
-    text-shadow: 1px 1px 3px rgba(255, 166, 0, 0.607);
+    text-shadow: 1px 1px 3px hsla(23, 100%, 50%, 0.637);
 }
 
 .side_attraction_list{
@@ -107,7 +107,7 @@ ul{
 
 }*/
 ul li:nth-child(odd){
-    background-color: orange;
+    background-color: #FF6100;
     position: relative;
     right: -10%;
 }
@@ -138,14 +138,12 @@ ul li:nth-child(odd){
 
 
 small{
-    
+    position: absolute;
     bottom: 0;
     left: -70;
-    font-style: italic;
     text-transform: capitalize;
     font-weight: 500;
-    font-size: large;
-    z-index: -1;
+    font-size: medium;
 }
 
 .ku {
